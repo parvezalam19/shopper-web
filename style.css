@@ -1,0 +1,341 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* outline: solid 1px red; */
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+
+}
+
+
+/* header section  */
+
+header {
+  padding: 0 50px;
+  position: relative;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.search__item {
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  background-color: rgb(236, 241, 250);
+  padding: 5px 20px;
+  margin: auto;
+  letter-spacing: 1px;
+}
+
+.nav__title {
+  gap: 20px;
+}
+
+.nav__title li {
+  font-weight: 600;
+}
+
+.admin__profile {
+  width: 50px;
+  height: 50px;
+}
+
+.admin__profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.icon_box {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.icon_box img {
+  width: 100%;
+}
+
+.heading_title_highlight {
+  color: #0d6efd;
+}
+
+.progress_bars {
+  position: relative;
+  bottom: -10%;
+  left: -20%;
+}
+
+.section_title span {
+  margin: 10px;
+  font-weight: 600;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.testimonial_section {
+  width: 100%;
+  padding: 0 10%;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e9e9e9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+
+.card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: #333333;
+}
+
+.active {
+  border-bottom: 2px solid blue;
+  cursor: pointer;
+}
+
+.profile_logo {
+  width: 60px;
+  height: 60px;
+  display: flex;
+}
+
+.profile_logo img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.stars i {
+  color: yellow;
+}
+
+.card-content {
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.card {
+  margin: 40px 20px !important;
+}
+
+.card-headers {
+  width: 100%;
+}
+
+.card-content h5 {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.card-content p {
+  font-size: 14px;
+}
+
+.slick-initialized .slick-slide {
+  display: inline !important;
+}
+
+.card_author {
+  font-size: 14px;
+  margin: 8px;
+  color: cadetblue;
+}
+
+/* why shopper section */
+
+.Shopper_box {
+  margin: 50px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Shopper_cards {
+  height: 200px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  margin: 10px 5px;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.blue_lines {
+  background-color: blue;
+  width: 100%;
+  height: 5px;
+}
+.red_lines {
+  background-color: red;
+  width: 100%;
+  height: 5px;
+}
+.orange_lines {
+  background-color: orange;
+  width: 100%;
+  height: 5px;
+}
+.shopper_icons {
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.shopper_icons i {
+  margin: 0 10px;
+  font-size: 15px;
+  color: black !important;
+  background-color: cyan;
+  padding: 5px;
+  border-radius: 50%;
+}
+.shopper_icons h4 {
+  font-weight: 600;
+  color: rgb(6, 206, 206);
+  font-size: 15px;
+}
+
+.shopper-contents p {
+  margin: 5px 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+footer {
+  padding: 20px 30px;
+}
+
+.footer-titles ul li {
+  color: cadetblue;
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin: 2px 0px;
+  cursor: pointer;
+}
+
+.footer-titles h4 {
+  font-size: 15px;
+}
+
+.horizontal_line {
+  width: 100%;
+  height: 2px;
+  background-color: gray;
+}
+
+.copright span {
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+a {
+  color: black;
+}
+
+.menu-list {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+  background-color: #d5e6ea;
+  right: 3%;
+  top: 27%;
+  text-align: center;
+}
+
+.menu-list ul {
+  text-align: center;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.menu-list ul li {
+  background-color: #0d6efd;
+  margin: 10px 50px;
+  border-bottom: 2px solid rgb(192, 182, 182);
+}
+
+@media only screen and (width< 500px) {
+  .copyright-section {
+    padding: 5px 5px !important;
+    margin: 0 !important;
+  }
+
+  .copright {
+    gap: 20px !important;
+    margin-top: 10px;
+  }
+
+  header {
+    padding-right: 12px !important;
+    padding-left: 12px !important;
+  }
+
+  .search__item {
+    width: 100%;
+    padding: 6px;
+    font-size: 10px;
+  }
+
+  .section_title span {
+    font-size: 17px;
+  }
+  .card-content p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (width < 700px) {
+  .nav__title {
+    display: none !important;
+    visibility: hidden;
+  }
+
+  .stars {
+    width: 36%;
+  }
+
+  .stars i {
+    font-size: 10px;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+}

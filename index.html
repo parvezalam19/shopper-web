@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    />
+    <!-- CSS link to the carousel slider theme -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    />
+    <!-- Custom CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section start -->
+
+    <header class="d-flex mt-4 align-items-center justify-content-between">
+      <div class="d-flex align-items-center col-sm-6">
+        <div class="logo">
+          <img src="./logo/SH.@svg.svg" alt="" />
+        </div>
+        <input
+          class="search__item"
+          type="text"
+          placeholder="Search dress,coat,jeans etc"
+        />
+      </div>
+
+      <ul class="d-flex nav__title">
+        <li class="active">Home</li>
+        <li>Explore</li>
+      </ul>
+
+      <div class="admin__profile">
+        <img
+          src="https://expertphotography.b-cdn.net/wp-content/uploads/2020/08/social-media-profile-photos-3.jpg"
+          alt=""
+        />
+      </div>
+
+      <div class="dropdown menu-btn">
+        <button
+          class="btn btn-light dropdown-toggle"
+          type="button"
+          id="dropdownMenuButton1"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Home</a></li>
+          <li><a class="dropdown-item" href="#">Explore</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- header section end -->
+
+    <!-- main section start -->
+
+    <main class="container mt-5">
+      <div class="row">
+        <div class="col-sm-6 left-section">
+          <h1>
+            Best Place To Buy <br />
+            <span class="heading_title_highlight">Everything</span>
+          </h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Perspiciatis, iusto possimus magni perferendis error totam.
+          </p>
+          <button class="btn btn-primary">Shop Now</button>
+          <div class="social_icons d-flex mt-4 gap-4">
+            <div class="icon_box">
+              <img src="./Icons/fb/fb@png.png" alt="" />
+            </div>
+            <div class="icon_box">
+              <img src="./Icons/twitter/tw@png.png" alt="" />
+            </div>
+            <div class="icon_box">
+              <img src="./Icons/linkedin/in@png.png" alt="" />
+            </div>
+          </div>
+          <div class="progress_bars">
+            <div class="progress" style="width: 30%; height: 5px">
+              <div
+                class="progress-bar bg-info"
+                style="width: 100%; height: 5px"
+              ></div>
+            </div>
+            <div class="progress mt-2" style="width: 35%; height: 5px">
+              <div
+                class="progress-bar bg-warning"
+                style="width: 100%; height: 5px"
+              ></div>
+            </div>
+            <div class="progress mt-2" style="width: 40%; height: 5px">
+              <div
+                class="progress-bar bg-danger"
+                style="width: 100%; height: 5px"
+              ></div>
+            </div>
+            <div class="progress mt-2" style="width: 45%; height: 5px">
+              <div
+                class="progress-bar bg-blue"
+                style="width: 100%; height: 5px"
+              ></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6">
+          <div class="banner">
+            <img src="./banner/bannerimage.png" alt="" width="100%" />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- main section end -->
+
+    <!-- Testimonial section start -->
+
+    <section class="testimonial_section">
+      <div class="section_title mt-5 text-center">
+        <span class="active" id="testimonial-btn">Testimonial</span>
+        <span id="shopper-btn">Why Shopper</span>
+      </div>
+
+      <!-- card slider  -->
+      <div class="carousel testmonial_conteiner" id="testimonial-container">
+        <div class="card">
+          <div class="card-headers d-flex justify-content-between">
+            <div class="profile_logo">
+              <img
+                src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg"
+                alt=""
+              />
+              <h6 class="card_author">Jhon <br /><span>Ceo</span></h6>
+            </div>
+
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class="card-content mt-5">
+            <h5>It was a good experience</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae
+              minus reiciendis placeat, consequuntur repellat commodi quidem
+              itaque beatae alias.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-headers d-flex justify-content-between">
+            <div class="profile_logo">
+              <img
+                src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg"
+                alt=""
+              />
+              <h6 class="card_author">Jhon <br /><span>Ceo</span></h6>
+            </div>
+
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class="card-content mt-5">
+            <h5>It was a good experience</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae
+              minus reiciendis placeat, consequuntur repellat commodi quidem
+              itaque beatae alias.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-headers d-flex justify-content-between">
+            <div class="profile_logo">
+              <img
+                src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg"
+                alt=""
+              />
+              <h6 class="card_author">Jhon <br /><span>Ceo</span></h6>
+            </div>
+
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class="card-content mt-5">
+            <h5>It was a good experience</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae
+              minus reiciendis placeat, consequuntur repellat commodi quidem
+              itaque beatae alias.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-headers d-flex justify-content-between">
+            <div class="profile_logo">
+              <img
+                src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg"
+                alt=""
+              />
+              <h6 class="card_author">Jhon <br /><span>Ceo</span></h6>
+            </div>
+
+            <div class="stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <div class="card-content mt-5">
+            <h5>It was a good experience</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae
+              minus reiciendis placeat, consequuntur repellat commodi quidem
+              itaque beatae alias.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- card slider end -->
+
+      <!-- why shopper -->
+      <div class="row Shopper_box d-none" id="shopper-container">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="Shopper_cards">
+            <div class="shopper-contents">
+              <div class="blue_lines"></div>
+              <div class="shopper_icons d-flex">
+                <i class="fa-solid fa-snowflake"></i>
+                <h4>Cost Freindly</h4>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                perferendis earum error. Laudantium aut ullam molestiae incidunt
+                eius vero fuga?Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Nisi, placeat?
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="Shopper_cards">
+            <div class="shopper-contents">
+              <div class="orange_lines"></div>
+
+              <div class="shopper_icons d-flex">
+                <i class="fa-solid fa-house-chimney"></i>
+                <h4>Door-to-Door Services</h4>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                perferendis earum error. Laudantium aut ullam molestiae incidunt
+                eius vero fuga?Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Magnam, autem.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="Shopper_cards">
+            <div class="shopper-contents">
+              <div class="red_lines"></div>
+
+              <div class="shopper_icons d-flex">
+                <i
+                  class="fa-sharp fa-solid fa-person-walking-arrow-loop-left"
+                ></i>
+                <h4>Easy Refund & Return</h4>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. At
+                perferendis earum error. Laudantium aut ullam molestiae incidunt
+                eius vero fuga?Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Modi, hic.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial section end -->
+
+    <!-- Footer section start -->
+
+    <footer>
+      <h5 class="mb-3 mx-4">All Category</h5>
+      <div class="row footer-titles">
+        <div class="col-sm-3 text-left">
+          <ul>
+            <h4>Art</h4>
+            <li>Who we are?</li>
+            <li>Join our team</li>
+            <li>Term & Conditions</li>
+            <li>Fee & Payment</li>
+            <li>Refund Policy</li>
+          </ul>
+
+          <ul>
+            <h4>Music</h4>
+
+            <li>Mint Song</li>
+            <li>Ultra Song</li>
+            <li>Pop Song</li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <ul>
+            <h4>Help</h4>
+            <li>Track Your Order</li>
+            <li>FAQ</li>
+            <li>Cancellations</li>
+            <li>Payment</li>
+            <li>Customer</li>
+            <li>Redeem</li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <ul>
+            <h4>Shop</h4>
+            <li>Men</li>
+            <li>Womens</li>
+            <li>Kids</li>
+            <li>Stores</li>
+            <li>Brand</li>
+            <li>Home</li>
+            <li>Collections</li>
+            <li>inde</li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <ul>
+            <h5>Follow us</h5>
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Twitter</li>
+            <li>Pinterest</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <div class="horizontal_line"></div>
+    <section
+      class="copyright-section row d-flex justify-content-between mx-5 p-3"
+    >
+      <div class="copright d-flex gap-4 col-sm-5">
+        <span>2023 Shopper etc</span>
+        <span>Terms of use</span>
+        <span>Privacy Policy</span>
+      </div>
+      <div class="copright d-flex gap-4 col-sm-5">
+        <span>Support</span>
+        <span>Contact</span>
+        <span class="d-flex align-items-center">
+          <ul class="d-flex align-items-center gap-5">
+            <li>
+              <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </span>
+      </div>
+    </section>
+
+    <!-- Footer section end -->
+
+    <script type="module" src="index.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JavaScript link to the jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- JavaScript link to the carousel slider library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script>
+      $(document).ready(function () {
+        $(".carousel").slick({
+          dots: true,
+          infinite: true,
+          speed: 300,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
